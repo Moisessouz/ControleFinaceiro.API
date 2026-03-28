@@ -59,7 +59,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 // 5. Execução automática das Migrations (Opcional, mas útil para o teste)
-// Isso garante que o banco 'gastos.db' e as tabelas sejam criados automaticamente ao iniciar a API, 
+// Isso garante que o banco 'transacoes.db' e as tabelas sejam criados automaticamente ao iniciar a API, 
 // desde que você já tenha rodado o 'dotnet ef migrations add Inicial' antes.
 using (var scope = app.Services.CreateScope())
 {
