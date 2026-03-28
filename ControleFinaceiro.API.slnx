@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="controlefinaceiro.api.client/controlefinaceiro.api.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="ControleFinaceiro.API.Server/ControleFinaceiro.API.Server.csproj" />
+</Solution>
